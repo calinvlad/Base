@@ -1,3 +1,5 @@
+For dependencie: https://code.lengstorf.com/deploy-nodejs-ssl-digitalocean/
+
 SSL EASY
 1. Install Let’s Encrypt client (Certbot);
 
