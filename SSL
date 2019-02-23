@@ -73,3 +73,8 @@ NOTE TO REMEMBER: YOU CAN'T RUN 2 THINGS ON THE SAME PORT // 80 to be more speci
 DONE
 
 PS: I HOPE YOU HAVE THE APP INSIDE ... DON'T BE A FOOL
+
+4. If you have problems with starting nginx, because it appears that something is running on port :80 and :443, STOP IT, STOP THE APACHE SERVER, STOP THE APP SERVER, and check ./etc/hosts with nano
+1. sudo apachectl stop
+2. sudo systemctl stop nginx
+3. pm2 stop app
